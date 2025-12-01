@@ -1,38 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 body {
-    background-color: #212529;
-    color: #f8f9fa;
-    font-family: 'Press Start 2P', cursive;
-    margin: 0;
+  background-color: #212529;
+  color: #f8f9fa;
+  font-family: "Press Start 2P", cursive;
+  margin: 0;
 }
 
 .logo-text {
-    color: #ffcc00; /* Neon Gold/Yellow */
-    text-shadow: 2px 2px #ff0000; /* Red shadow for Roma colors */
-    margin-bottom: 20px;
+  color: #ffcc00; /* Neon Gold/Yellow */
+  text-shadow: 2px 2px #ff0000; /* Red shadow for Roma colors */
+  margin-bottom: 20px;
 }
 
 canvas {
-    border: 4px solid #ffcc00;
-    box-shadow: 0 0 20px rgba(255, 204, 0, 0.5);
-    display: block;
-    background-color: #000; /* Dark grass? Or just black for retro neon */
-    background-image: 
-        linear-gradient(#111 2px, transparent 2px),
-        linear-gradient(90deg, #111 2px, transparent 2px);
-    background-size: 40px 40px;
-    background-position: -2px -2px;
+  border: 4px solid #ffcc00;
+  box-shadow: 0 0 20px rgba(255, 204, 0, 0.5);
+  display: block;
+  background-color: #000; /* Dark grass? Or just black for retro neon */
+  background-image: linear-gradient(#111 2px, transparent 2px),
+    linear-gradient(90deg, #111 2px, transparent 2px);
+  background-size: 40px 40px;
+  background-position: -2px -2px;
 }
 
 .instructions {
-    font-size: 0.8rem;
-    color: #aaa;
-    margin-bottom: 20px;
+  font-size: 0.8rem;
+  color: #aaa;
+  margin-bottom: 20px;
 }
 
 .btn {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 0.8rem;
-    margin: 5px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.8rem;
+  margin: 5px;
 }
