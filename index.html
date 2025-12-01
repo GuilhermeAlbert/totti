@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Totti</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center mt-4">
+          <h1 class="logo-text">TOTTI 10</h1>
+        </div>
+      </div>
+
+      <div id="game-board" class="d-flex justify-content-center my-4">
+        <canvas id="gameCanvas" width="400" height="600"></canvas>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="instructions">
+            Press <strong>SPACE</strong> or <strong>CLICK</strong> to lock
+            Direction and Power.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-warning"
+            onclick="window.location.reload();"
+          >
+            <i class="fas fa-redo-alt"></i> Restart
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
