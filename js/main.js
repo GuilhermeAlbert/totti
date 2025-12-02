@@ -39,7 +39,7 @@ const keeper = {
   y: 40,
   width: 30,
   height: 10,
-  speed: 2,
+  speed: 1,
   direction: 1,
 };
 
@@ -52,12 +52,12 @@ const wall = {
 };
 
 let angle = -Math.PI / 2;
-let angleSpeed = 0.03;
+let angleSpeed = 0.015;
 let maxAngle = -Math.PI / 2 + 0.8;
 let minAngle = -Math.PI / 2 - 0.8;
 
 let power = 0;
-let powerSpeed = 2;
+let powerSpeed = 1;
 let maxPower = 100;
 let powerDirection = 1;
 
@@ -106,7 +106,7 @@ function resetShot() {
     wall.x = Math.random() * (canvas.width - wall.width - 100) + 50;
   }
 
-  keeper.speed = 2 + score * 0.2;
+  keeper.speed = 1 + score * 0.1;
 }
 
 function update() {
